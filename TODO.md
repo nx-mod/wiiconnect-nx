@@ -13,6 +13,9 @@ in our own code.
 
 ## NAS, because everything waits on it
 
+AltWFC answers this too, so ours is for the case where no game server is wanted
+at all - the channels, and a console that only needs to be allowed online.
+
 - [ ] The authentication a console does before anything else, and the token it
       carries afterwards
 - [ ] Issue our own identities rather than accepting a real console's
@@ -23,12 +26,15 @@ in our own code.
 - [ ] The message box: sending, receiving, and the schedule a console polls on
 - [ ] Feed the Forecast and News channels through it
 
-## Matchmaking, properly
+## Matchmaking: run AltWFC
 
-- [ ] Players, friends and server lists - GameSpy's job, which AltWFC already
-      implements openly
-- [ ] NAT negotiation, which is most of the difficulty
-- [ ] Decide what is worth running ourselves when Wiimmfi already does this well
+Decided rather than deferred: [AltWFC](docs/altwfc.md) is the open
+implementation of Nintendo's GameSpy services, maintained for a decade, and
+writing our own would be a year spent catching up to it.
+
+- [ ] Run it locally, and point a wii-nx build at it with a setting
+- [ ] Mario Kart Wii against it, which is the first real test
+- [ ] Say in wii-nx which service answered, so a failure names itself
 
 ## Everything else
 

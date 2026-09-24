@@ -17,7 +17,7 @@ modified game.
 | | What it is | When |
 |---|---|---|
 | **local** | no server at all: consoles on one network find each other and connect directly | a room with two Switches, or no internet |
-| **your own** | this server, run by you | a group of friends, a LAN party, or preservation |
+| **your own** | [AltWFC](docs/altwfc.md) for games, this server for the channels | a group of friends, a LAN party, or preservation |
 | **community** | the services that already exist - [Wiimmfi](https://wiimmfi.de), RWFC, [RiiConnect24](https://riiconnect24.net), [WiiLink](https://wiilink.ca) | everything else |
 
 The third already works: Mario Kart Wii's project here points at RWFC today. The
