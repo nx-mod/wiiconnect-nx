@@ -24,9 +24,10 @@ The third already works: Mario Kart Wii's project here points at RWFC today. The
 first is the one a real console cannot do and we can, because the network layer
 a game talks to is ours rather than Nintendo's.
 
-A GameCube needs none of this for the games that support its Broadband Adapter -
-Double Dash plays eight players across two consoles with no service anywhere.
-[docs/lan.md](docs/lan.md) says which side needs what.
+A GameCube needs none of this: its LAN games play with no service anywhere, and
+its one online game - Phantasy Star Online - already has an open server in
+Sylverant. [docs/lan.md](docs/lan.md) and [docs/gamecube.md](docs/gamecube.md)
+say which side needs what.
 
 ## What a console asks for
 

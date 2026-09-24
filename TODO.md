@@ -11,9 +11,10 @@ In the order that gets a console online soonest.
 This is the part a real Wii cannot do. The addresses are in its titles; ours are
 in our own code.
 
-The GameCube gets there without us: its Broadband Adapter games already play on
-a local network, so what they need is the adapter in libgc-nx rather than
-anything here ([docs/lan.md](docs/lan.md)).
+The GameCube gets there without us entirely ([docs/gamecube.md](docs/gamecube.md)):
+its LAN games need the Broadband Adapter in libgc-nx, and its one online game -
+Phantasy Star Online - has an open server already in Sylverant. Nothing here has
+to be written for it.
 
 ## NAS, because everything waits on it
 
