@@ -16,13 +16,17 @@ modified game.
 
 | | What it is | When |
 |---|---|---|
-| **local** | no server at all: consoles on one network find each other and connect directly | a room with two Switches, or no internet |
+| **local** | no server at all: consoles on one network find each other and connect directly ([how](docs/lan.md)) | a room with two Switches, or no internet |
 | **your own** | [AltWFC](docs/altwfc.md) for games, this server for the channels | a group of friends, a LAN party, or preservation |
 | **community** | the services that already exist - [Wiimmfi](https://wiimmfi.de), RWFC, [RiiConnect24](https://riiconnect24.net), [WiiLink](https://wiilink.ca) | everything else |
 
 The third already works: Mario Kart Wii's project here points at RWFC today. The
 first is the one a real console cannot do and we can, because the network layer
 a game talks to is ours rather than Nintendo's.
+
+A GameCube needs none of this for the games that support its Broadband Adapter -
+Double Dash plays eight players across two consoles with no service anywhere.
+[docs/lan.md](docs/lan.md) says which side needs what.
 
 ## What a console asks for
 

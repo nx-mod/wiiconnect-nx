@@ -11,6 +11,10 @@ In the order that gets a console online soonest.
 This is the part a real Wii cannot do. The addresses are in its titles; ours are
 in our own code.
 
+The GameCube gets there without us: its Broadband Adapter games already play on
+a local network, so what they need is the adapter in libgc-nx rather than
+anything here ([docs/lan.md](docs/lan.md)).
+
 ## NAS, because everything waits on it
 
 AltWFC answers this too, so ours is for the case where no game server is wanted
