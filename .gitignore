@@ -1,0 +1,10 @@
+# Nothing of Nintendo's, and nothing of anyone's console.
+*.wad
+*.dol
+*.bin
+keys/
+data/
+__pycache__/
+*.sqlite
+*.db
+.env
